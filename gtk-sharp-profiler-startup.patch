@@ -1,0 +1,11 @@
+diff -Naur gtk-sharp.org/gtk/gui-thread-check/profiler/gui-thread-check.c gtk-sharp/gtk/gui-thread-check/profiler/gui-thread-check.c
+--- gtk-sharp.org/gtk/gui-thread-check/profiler/gui-thread-check.c	2018-12-07 05:05:42.325500894 +0100
++++ gtk-sharp/gtk/gui-thread-check/profiler/gui-thread-check.c	2018-12-07 05:40:53.044438289 +0100
+@@ -93,6 +93,6 @@
+ 	
+ 	mono_profiler_install (NULL, NULL);
+ 	mono_profiler_install_enter_leave (simple_method_enter, NULL);
+-	mono_profiler_set_events (MONO_PROFILE_ENTER_LEAVE);
++	mono_profiler_set_events (1 << 12);
+ }
+ 

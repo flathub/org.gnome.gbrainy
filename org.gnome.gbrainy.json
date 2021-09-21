@@ -3,7 +3,7 @@
     "sdk": "org.gnome.Sdk",
     "branch": "stable",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.36",
+    "runtime-version": "40",
     "command": "gbrainy",
     "rename-appdata-file": "gbrainy.appdata.xml",
     "rename-desktop-file": "gbrainy.desktop",

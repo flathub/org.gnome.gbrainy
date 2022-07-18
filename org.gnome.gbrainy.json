@@ -41,6 +41,17 @@
         },
         "shared-modules/intltool/intltool-0.51.json",
         {
+            "name": "mono",
+            "buildsystem": "simple",
+            "build-commands": [
+                "/usr/lib/sdk/mono6/install.sh"
+            ],
+            "build-options": {
+                "no-debuginfo": true,
+                "strip": true
+            }
+        },
+        {
             "name": "gbrainy",
             "sources": [
                 {
@@ -54,17 +65,6 @@
                     "sha256": "1f67c220dd04c332260d810c25cb94384cca4547bcf933db3997ac69667457e9"
                 }
             ]
-        },
-        {
-            "name": "mono-runtime",
-            "buildsystem": "simple",
-            "build-commands": [
-                "/usr/lib/sdk/mono6/install.sh"
-            ],
-            "build-options": {
-                "no-debuginfo": true,
-                "strip": true
-            }
         }
     ]
 }

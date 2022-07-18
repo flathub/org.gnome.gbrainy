@@ -45,6 +45,11 @@
             "name": "gbrainy",
             "sources": [
                 {
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8936,
+                        "url-template": "https://gent.softcatala.org/jmas/gbrainy/gbrainy-$version.tar.gz"
+                    },
                     "type": "archive",
                     "url": "https://gent.softcatala.org/jmas/gbrainy/gbrainy-2.4.2.tar.gz",
                     "sha256": "47ebaa7fd58f55a9b10fbfcc25013e82428b292834b862dd3f728ef8feefebf3"

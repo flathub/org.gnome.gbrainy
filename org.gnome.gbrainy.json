@@ -39,6 +39,7 @@
             ]
         },
         "shared-modules/intltool/intltool-0.51.json",
+        "shared-modules/libcanberra/libcanberra.json",
         {
             "name": "mono",
             "buildsystem": "simple",
